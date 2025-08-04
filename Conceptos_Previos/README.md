@@ -1,4 +1,4 @@
-<# Comandos
+# Comandos
 ```
 python --version
 git --version
@@ -21,6 +21,7 @@ y escriba "S"
 | Series    | Array de una dimensión                         |
 | DataFrame | Se corresponde con unas tabla de 2 dimensiones |
 | Panel     | Similar a un diccionario de DataFrame          |
+
 Alt + shift + f
 
 # Creación de objetos Series
@@ -32,4 +33,15 @@ print(s)
 
 ```
 manejo de git
->git init #inicializa el repositorio
+git init #inicializa el repositorio
+git add .
+git commit -m "introducción a pandas 5%"
+si sale error
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+crear archivo requeriments.txt
+pip freeze > requirements.txt
+clonar repositorio
+https://github.com/michellegallegoabril/CURSO_IA.git
+como desactivar el entorno virtual: deactivate
