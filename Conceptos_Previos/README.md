@@ -45,3 +45,10 @@ pip freeze > requirements.txt
 clonar repositorio
 https://github.com/michellegallegoabril/CURSO_IA.git
 como desactivar el entorno virtual: deactivate
+
+Clonar repositorio
+git clone link
+
+Recuperar librerías
+con env ejecutado aplicamos 
+pip install -r requirements.txt
