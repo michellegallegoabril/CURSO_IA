@@ -73,8 +73,14 @@ print(df4)
 # Copiar un DataFrame
 df_copy = df.copy()
 # Añadir una nueva columna
-df_copy["Cumpleaños"] = [1990,1978,1980,1994]
+df_copy["cumpleaños"] = [1990,1978,1980,1994]
 print(df_copy)
 # Añadir una columna calculada
-df_copy["años"] = 2025 - df_copy["Cumpleaños"]
+df_copy["años"] = 2025 - df_copy["cumpleaños"]
 print(df_copy)
+# Añadir una nueva columna creando un DataFrame nuevo
+df_mod = df_copy.assign(mascotas=[1,3,0,0])
+print(df_mod)
+# Eliminar una columna
+del df_mod["peso"]
+print(df_mod)
