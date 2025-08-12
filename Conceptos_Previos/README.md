@@ -14,6 +14,7 @@ env\scripts\activate
 Si no se activa, usar este comando en PowerShell
 set-ExecutionPolicy Unrestricted
 y escriba "S"
+cd . (lugar donde se encuentra el entorno)
 
 ## Estructuras de datos en Pandas
 | Tipo      | Contenido                                      |
