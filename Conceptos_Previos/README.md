@@ -10,7 +10,7 @@ pip install pandas
 ## Crear entorno virtual
 python -m venv env
 ## Activar entorno
-env\scripts\activate
+python -m venv env
 Si no se activa, usar este comando en PowerShell
 set-ExecutionPolicy Unrestricted
 y escriba "S"
